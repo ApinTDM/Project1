@@ -205,7 +205,7 @@ h2 {
 }
 
 #search h2{
-    font-size: 48px;
+    font-size: 38px;
     font-weight: 600px;
     font-style: normal;
     font-weight: 600;
@@ -216,7 +216,7 @@ h2 {
 }
 
 #search p{
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600px;
     font-style: normal;
     font-weight: 400;
@@ -227,29 +227,16 @@ h2 {
 }
 
 
+/* extra small */
 
 
 
 /* smartphone */
-@media (max-width: 575.98px) { 
-    #search #h2search{
-        margin-top: -30px;
-    }
 
-    #search h2{
-        font-size: 20px;
-    }
-
-    #search p {
-        font-size: 18px;
-    }
- }
-
-
-@media (max-width: 767.98px) { 
+@media (min-width: 576px) { 
 
     #search #h2search{
-        margin-top: -30px;
+        margin-top: -50px;
     }
 
     #search h2{
@@ -257,10 +244,50 @@ h2 {
     }
 
     #search p{
-        font-size: 18px;
+        font-size: 16px;
     }
+
+}
+
     
- }
+    /* tablet */
+
+    @media (min-width: 768px) { 
+
+        #search #h2search{
+            margin-top: -30px;
+        }
+    
+        #search h2{
+            font-size: 28px;
+        }
+    
+        #search p{
+            font-size: 18px;
+        }
+
+     }
+
+
+     /* desktop */
+
+     @media (min-width: 992px) { 
+
+        #search #h2search{
+            margin-top: -30px;
+        }
+    
+        #search h2{
+            font-size: 38px;
+        }
+    
+        #search p{
+            font-size: 18px;
+        }
+
+     }
+
+ 
 
 @font-face {
     font-family: Poppins;
