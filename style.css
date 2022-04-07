@@ -249,7 +249,7 @@ h2 {
 
 /* smartphone */
 
-@media (min-width: 576px) { 
+@media (min-width: 575px) { 
 
     #search #h2search{
         margin-top: -50px;
