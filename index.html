@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="./bootstrap-5.1.3-dist/css/bootstrap.css">
+    <!-- bootstrap icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- logo title -->
+    <link rel="icon" href="./Assets/Logo Icon.png" type="image/x-icon">
+</head>
+<body>
+  
+<!-- navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-transparent position-absolute w-100">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="./Assets/Logo Icon.png" alt="" width="30" class="d-inline-block align-text-top me-2">  
+        Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item mx-2">
+            <a class="nav-link active fw-bold" href="#">BERANDA</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="#">LAYANAN</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="#">FITUR</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="#">KONTAK</a>
+          </li>
+        </ul>
+        <div class="div">
+            <button class="button-primary">Daftar</button>
+            <button class="button-secondary">Masuk</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+<!-- end navbar -->
+
+<!-- hero -->
+<section id="hero">
+    <div class="container h-100">
+        <div class="row h-100">
+            <div class="col-6 hero-tagline my-auto">
+                <h1>Membantu Temukan Rumah Impian Anda.</h1>
+                <p><span class="fw-bold">Rumah Impian</span> hadir untuk temukan terbaik untukmu, untuk di jual ataupun di sewa dengan sumber terpercaya.</p>
+                <button class="button-carirumah">Temukan Rumah</button>
+                <a href="">
+                  <img src="./Assets/Right Arrow.png" alt="arrow">
+                </a>
+            </div>
+            
+        </div>
+        <img src="./Assets/Hero Image.png" alt="banner" class="position-absolute end-0 bottom-0 img-hero">
+            <img src="./Assets/Accsent 1.png" alt="accsent" class="accsent-img h-100 position-absolute top-0 start-0">
+    </div>
+</section>
+<!-- end hero -->
+
+<!-- layanan section -->
+
+  <section id="layanan">
+  <div class="container">
+    <div class="row">
+      <div class="col text-center">
+        <h2>Layanan Kami</h2>
+        <span class="sub-title">Rumah impian hadir menjadi solusi bagi kamu</span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card-layanan text-center">
+          <div class="border-logo position-relative mx-auto">
+          <img class="position-absolute top-50 start-50 translate-middle" src="./Assets/Icon-propertybaru.png" alt="logo">
+          </div>
+          <h3 class="mt-3">Property Baru</h3>
+          <p class="sub-title mt-4">Rumah impian kini jadi kenyataan, Beli rumah baru dengan fasilitas terbaik dengan lingkungan nyaman</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card-layanan text-center">
+          <div class="border-logo position-relative mx-auto">
+          <img class="position-absolute top-50 start-50 translate-middle" src="./Assets/Icon Sewa.png" alt="logo">
+          </div>
+          <h3 class="mt-3">Sewa Rumah</h3>
+          <p class="sub-title mt-4">Sewa rumah yang indah untuk keluarga anda, pilihan terbaik untuk tempat tinggal keluarga mu.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card-layanan text-center">
+          <div class="border-logo position-relative mx-auto">
+          <img class="position-absolute top-50 start-50 translate-middle" src="./Assets/Icon Beli.png" alt="logo">
+          </div>
+          <h3 class="mt-3">Beli Rumah</h3>
+          <p class="sub-title mt-4">Beli Rumah sempurna dengan harga terbaik kualitas terjamin dari sumber terpercaya.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+
+<!-- end section -->
+
+<!-- search section -->
+  <section id="search">
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-12 text-center mt-5">
+          <h2>Temukan Rumah Impianmu</h2>
+          <p>Sekarang anda dapat menghemat semua hal stress, waktu, dan biaya tersembunyi, dengan ratusan rumah untuk anda.</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-10 mx-auto">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Hubungi Kami</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">a</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Contact</button>
+          </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+          <!-- Form hubungi kami -->
+          <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <form action="">
+              <div class="container" id="contact">
+                <div class="row justify-content-center">
+                  <div class="col-8 mt-3">
+                  <div class="mb-4">
+                    <label for="name" class="form-label" style="color: #ffffff;font-weight: 600;">Username</label>
+                    <input type="email" class="form-control" id="name">
+                  </div>
+                  <div class="mb-4">
+                    <label for="Emailnya" class="form-label" style="color: #ffffff;font-weight: 600;">Email</label>
+                    <input type="email" class="form-control" id="Emailnya">
+                  </div>
+                  <div class="mb-4">
+                    <label for="pesan" class="form-label" style="color: #ffffff;font-weight: 600;">Pesan</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                 <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+              </div>
+              </div>
+          </div>
+          <!-- end form hubungi kami -->
+
+          <!-- tempat profile -->
+          <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ex impedit nihil, fugit ea quisquam, sunt nisi nostrum vel cum perspiciatis soluta aut eligendi repellendus ipsum voluptas, fugiat eveniet quia!</div>
+          <!-- akhir profile -->
+          <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione excepturi eos aliquid reprehenderit tenetur in architecto cum esse, dolorem vel assumenda reiciendis. Corrupti rem consequatur rerum, impedit soluta consectetur maxime.</div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+<!-- end search -->
+
+
+<!-- footer -->
+<footer>
+  <footer class="bg-primary text-center pb-5 mt-5">
+    <svg  style="margin-top: -15px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,128L48,106.7C96,85,192,43,288,53.3C384,64,480,128,576,138.7C672,149,768,107,864,117.3C960,128,1056,192,1152,192C1248,192,1344,128,1392,96L1440,64L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+    <p class="text-white">
+      Created by <i class="bi bi-instagram text-danger"></i> <a class="text-white fw-bold" href="https://www.instagram.com/apinsyahriin/">apinsyahriin</a>
+    </p>
+  </footer>
+</footer>
+<!-- end footer -->
+
+    <!-- javascript -->
+    <script src="./bootstrap-5.1.3-dist/js/bootstrap.js"></script>
+    <!-- end javascript -->
+</body>
+</html>
