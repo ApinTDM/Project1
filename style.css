@@ -229,7 +229,21 @@ h2 {
 
 /* extra small */
 
+@media (min-width: 430px) { 
 
+    #search #h2search{
+        margin-top: -50px;
+    }
+
+    #search h2{
+        font-size: 28px;
+    }
+
+    #search p{
+        font-size: 16px;
+    }
+
+}
 
 /* smartphone */
 
@@ -288,7 +302,6 @@ h2 {
      }
 
  
-
 @font-face {
     font-family: Poppins;
     src: url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap);
