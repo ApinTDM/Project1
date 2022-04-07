@@ -229,18 +229,20 @@ h2 {
 
 /* extra small */
 
-@media (min-width: 430px) { 
+@media (min-width: 375px) { 
 
     #search #h2search{
         margin-top: -50px;
     }
 
     #search h2{
-        font-size: 28px;
+        font-size: 24px;
+        line-height: 34px;
+        
     }
 
     #search p{
-        font-size: 16px;
+        font-size: 10px;
     }
 
 }
