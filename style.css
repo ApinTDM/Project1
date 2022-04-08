@@ -46,19 +46,7 @@ body{
     font-weight: 400;
     border: none;
 }
-.navbar .nav-item::after{
-    content:'';
-    display:block;
-    width:0px;
-    height:2px;
-    background:#fefa00;
-    transition: 0.2s;
-}
 
-.navbar .nav-item:hover::after{
-    width:50%;
-    margin: auto;
-}
 
 
 
@@ -229,38 +217,57 @@ h2 {
 
 /* extra small */
 
-@media (min-width: 375px) { 
-
-    #search #h2search{
-        margin-top: -50px;
-    }
-
-    #search h2{
-        font-size: 24px;
-        line-height: 34px;
-        
-    }
-
-    #search p{
-        font-size: 10px;
-    }
-
-}
 
 /* smartphone */
 
-@media (min-width: 575px) { 
+@media (max-width: 767px) { 
+
+
+    /* navbar */
+    .navbar-collapse{
+        background-color: #048853;
+    }
+    /* end navbar */
+
+
+     /* hero section */
+     #hero h1{
+        font-size: 28px;
+        line-height: 30px;
+        margin-top: -100px;
+    }
+
+    #hero p {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    #hero #imghero-hero {
+        width: 350px;
+    }
+    
+
+    
+
+    #hero .button-carirumah {
+        font-size: 10px;
+        width: 120px;
+        height: 35px;
+    }
+    /* end section */
 
     #search #h2search{
-        margin-top: -50px;
+        margin-top: -30px;
     }
 
     #search h2{
         font-size: 28px;
+        line-height: 32px;
     }
 
     #search p{
         font-size: 16px;
+        line-height: 24px;
     }
 
 }
@@ -270,17 +277,38 @@ h2 {
 
     @media (min-width: 768px) { 
 
+
+        /* navbar */
+        .navbar-collapse{
+            background-color: #048853;
+        }
+        /* end navbar */
+
+        /* hero section */
+        #hero h1{
+            font-size: 48px;
+            line-height: 48px;
+        }
+
+        #hero #imghero-hero {
+            width: 80%;
+        }
+        /* end hero seciton */
+
+        /* search section */
         #search #h2search{
             margin-top: -30px;
         }
     
         #search h2{
-            font-size: 28px;
+            font-size: 48px;
         }
     
         #search p{
             font-size: 18px;
         }
+
+        /* end search section */
 
      }
 
@@ -288,6 +316,24 @@ h2 {
      /* desktop */
 
      @media (min-width: 992px) { 
+
+        .navbar-collapse{
+            background: transparent;
+        }
+
+        .navbar .nav-item::after{
+            content:'';
+            display:block;
+            width:0px;
+            height:2px;
+            background:#fefa00;
+            transition: 0.2s;
+        }
+        
+        .navbar .nav-item:hover::after{
+            width:50%;
+            margin: auto;
+        }
 
         #search #h2search{
             margin-top: -30px;
